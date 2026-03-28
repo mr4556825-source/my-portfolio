@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Ismail | Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-hosting-link.com/" />
+    <meta
+      property="og:title"
+      content="Omar Ismail | Front-End Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="I build responsive, user-friendly websites with clean code and modern designs. Check out my latest projects!"
+    />
+    <meta
+      property="og:image"
+      content="https://your-hosting-link.com/images/og-image.jpg"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-hosting-link.com/" />
+    <meta
+      property="twitter:title"
+      content="Omar Ismail | Front-End Developer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="I build responsive, user-friendly websites with clean code and modern designs."
+    />
+    <meta
+      property="twitter:image"
+      content="https://your-hosting-link.com/images/og-image.jpg"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg fixed-top shadow-sm transition-all"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#"
+            >Omar <span class="text-primary">Ismail</span></a
+          >
+
+          <div class="d-flex align-items-center order-lg-3">
+            <button
+              id="themeToggle"
+              class="btn btn-link text-dark shadow-none me-2"
+              style="text-decoration: none"
+            >
+              <i id="themeIcon" class="bi bi-moon-stars-fill"></i>
+            </button>
+            <button
+              class="navbar-toggler border-0 shadow-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="homepage"
+        class="min-vh-100 d-flex align-items-center pt-5 reveal"
+      >
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+              <h1 class="display-3 fw-bold text-dark mb-3">
+                Hello, I'm <span class="text-primary">Omar Ismail</span>
+              </h1>
+              <h2 class="h4 text-secondary mb-4">
+                I am a
+                <span
+                  id="typewriter"
+                  class="text-primary fw-bold border-end border-3 border-primary pe-1"
+                ></span>
+              </h2>
+              <p class="lead text-muted mb-5">
+                I build responsive, user-friendly websites with clean code and
+                modern designs.
+              </p>
+              <div
+                class="d-grid gap-3 d-md-flex justify-content-center justify-content-lg-start"
+              >
+                <a href="projects.html" class="btn btn-primary btn-lg px-4"
+                  >View My Projects</a
+                >
+                <a
+                  href="contact.html"
+                  class="btn btn-outline-secondary btn-lg px-4"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <div class="hero-image-container">
+                <img
+                  src="images/placeholder pfp.png"
+                  alt="Omar Ismail Profile"
+                  class="img-fluid rounded-circle shadow-lg border border-5 border-white w-75 w-lg-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 bg-dark text-white text-center">
+      <div class="container">
+        <p class="mb-0">
+          &copy; <span id="currentYear"></span> Omar Ismail. All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+    <button
+      id="backToTop"
+      class="btn btn-primary rounded-circle shadow-lg d-none"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
